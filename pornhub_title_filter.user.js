@@ -1,8 +1,13 @@
 // ==UserScript==
 // @name     pornhub title filter
+// @namespace     pornhub_title_filter
 // @version  1
+// @description This script filters out pornhub videos containing certain keywords. Source https://github.com/nsfw-free-software/pornhub_filter_step
+// @license WTFPLv2
 // @grant    none
-// @namespace   https://www.pornhub.com/*
+// @match https://www.pornhub.com/*
+// @downloadURL https://update.greasyfork.org/scripts/519894/pornhub%20title%20filter.user.js
+// @updateURL https://update.greasyfork.org/scripts/519894/pornhub%20title%20filter.meta.js
 // ==/UserScript==
 
 re = /step|hermanastra/i;
